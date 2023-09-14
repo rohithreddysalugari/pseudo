@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Pseudo classes</title>
+        <style>
+            a:link{
+                color: green;
+            }
+            a:visited{
+                color:orange
+            }
+            a:hover{
+                color: red;
+            }
+            a:active{
+                color: purple;
+            }
+           
+             div p:hover{
+                background-color:aquamarine
+            }
+            div p::first-letter{
+                color: red;
+                font-style: oblique;
+            }
+            div p::first-line{
+                color: green;
+                font-style: italic;
+                font-weight: 700;
+            }
+            ul li:hover{
+               background-color: red;
+            }
+            ol li:nth-child(2){
+                color: red;
+            }
+            ol li:first-child{
+                color: blue;
+            }
+            ol li:last-child{
+                color:yellow
+            }
+            ol li:hover:nth-child(4){
+                color: brown;
+            }
+            /* ol:hover{
+                color: yellow;
+                background-color: aqua;
+            } */
+        </style>
+
+    </head>
+    <body>
+        <a href="https://www.w3schools.com/css/css_pseudo_classes.asp">link</a><br>
+        <a href="https://www.msn.com/en-in/sports/cricket/explained-which-team-will-face-india-in-asia-cup-2023-final-if-pakistan-vs-sri-lanka-match-gets-washed-out/ar-AA1gGPtU?ocid=msedgntp&pc=U531&cvid=f938c649880846b782d940d2d60d4377&ei=7">link2</a><br>
+        <a href="https://www.w3schools.com/css/css_pseudo_classes.asp">link3</a><br>
+       <div><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptates, sint minus eveniet sapiente, sed dolore aperiam mollitia, dignissimos odio quisquam doloribus quae fugiat exercitationem deleniti ipsum nihil dolorem esse.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, harum, ducimus nulla, quo quae eligendi dolor minus quod ea modi numquam perferendis sequi. Asperiores corporis quis quidem! At, corrupti facilis.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam perferendis dicta doloribus, quasi illo repudiandae amet dolore ab vero reiciendis ipsum modi quos iusto sed distinctio! Id assumenda iste delectus.
+    </p></div> 
+        <ul>
+            <li><p>html</p></li>
+            <li><p>Dsa</p></li>
+            <li><p>OOPS</p></li>
+            <li><p>C++</p></li>
+            <li><p>css</p></li>
+        </ul>
+        <ol>
+            <li><p>movies</p></li>
+            <li><p>cricket</p></li>
+            <li><p>base ball</p></li>
+            <li><p>eating</p></li>
+            <li><p>sleeping</p></li>
+        </ol>
+    </body>
+</html>
